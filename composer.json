@@ -1,0 +1,25 @@
+{
+    "name": "velocity/velocity",
+    "description": "Velocity PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "velocity",
+            "email": "velocity@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "oangia/webv2": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+           
+        ]
+    }
+}
